@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-vector<int> SortedArray(vector<int> &a,vector<int> &b){
+vector<int> SortedArray(vector<int> &a,vector<int> &b){ // this is the brute code 
     int n1 = a.size();
     int n2 = b.size();
     set<int> st;
