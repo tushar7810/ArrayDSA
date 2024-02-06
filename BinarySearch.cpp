@@ -19,8 +19,8 @@ int main(){
     for(int i=0;i< n;i++){
         cin >> a[i];
     }
-    cout<<"Enter the number : ";cin>>num;
-    int j = BinarySearch(a,n,num);
+    cout<<"Enter the target : ";cin>>num;
+    int j = BinarySearch(a,0,n-1,num);
     if(j == -1){
         cout<<"Number not found"<<endl;
     }else{
